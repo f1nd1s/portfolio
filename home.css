@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategray;
+    background-color: lightsteelblue;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: dimgray;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 2px solid dodgerblue;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: royalblue;
+}
+
+footer {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
